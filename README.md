@@ -37,7 +37,7 @@ A single 18-page document might contain Tax Invoices, a Certificate of Origin, P
 Built on **Google Agent Development Kit (ADK)**, **Model Context Protocol (MCP)**, **FastAPI**, and **Streamlit**.
 
 ---
-
+<!-- 
 ## 📸 Screenshots
 
 > **📌 Replace these placeholders with actual screenshots before publishing.**
@@ -105,12 +105,12 @@ Tools: OBS Studio (free), Loom (free tier), or macOS Cmd+Shift+5
 
 [![Demo Video](https://img.shields.io/badge/▶_Watch_Demo-YouTube-red?style=for-the-badge)](https://youtube.com/your-demo-link)
 
----
+--- -->
 
 ## 🏗️ Architecture
 
 <div align="center">
-<img src="assets/architecture.svg" width="900" alt="TradeFlow AI System Architecture" />
+<img src="assets/tradeflow_ai_architecture.svg" width="900" alt="TradeFlow AI System Architecture" />
 </div>
 
 ### System Components
@@ -186,7 +186,7 @@ PDF Upload
 ### 1. Clone
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/tradeflow-ai.git
+git clone https://github.com/hiborn4/TradeFlow-Ai.git
 cd tradeflow-ai
 ```
 
