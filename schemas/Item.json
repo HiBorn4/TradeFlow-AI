@@ -1,0 +1,26 @@
+{
+  "doctype": "Item",
+  "fields": [
+    {"fieldname": "item_code", "label": "Item Code", "fieldtype": "Data", "reqd": 1, "unique": 1},
+    {"fieldname": "item_name", "label": "Item Name", "fieldtype": "Data"},
+    {"fieldname": "item_group", "label": "Item Group", "fieldtype": "Link", "options": "Item Group", "reqd": 1},
+    {"fieldname": "stock_uom", "label": "Default Unit of Measure", "fieldtype": "Link", "options": "UOM", "reqd": 1},
+    {"fieldname": "description", "label": "Description", "fieldtype": "Text Editor"},
+    {"fieldname": "brand", "label": "Brand", "fieldtype": "Link", "options": "Brand"},
+    
+    {"fieldname": "custom_length", "label": "Length", "fieldtype": "Float"},
+    {"fieldname": "custom_width", "label": "Width", "fieldtype": "Float"},
+    {"fieldname": "custom_height", "label": "Height", "fieldtype": "Float"},
+    {"fieldname": "custom_volume", "label": "Volume", "fieldtype": "Float"},
+    {"fieldname": "custom_length_uom", "label": "Length UOM", "fieldtype": "Link", "options": "UOM"},
+    {"fieldname": "custom_width_uom", "label": "Width UOM", "fieldtype": "Link", "options": "UOM"},
+    {"fieldname": "custom_height_uom", "label": "Height UOM", "fieldtype": "Link", "options": "UOM"},
+    {"fieldname": "custom_volume_uom", "label": "Volume UOM", "fieldtype": "Link", "options": "UOM"},
+    
+    {"fieldname": "weight_per_unit", "label": "Weight Per Unit", "fieldtype": "Float"},
+    {"fieldname": "weight_uom", "label": "Weight UOM", "fieldtype": "Link", "options": "UOM"},
+    
+    {"fieldname": "has_batch_no", "label": "Has Batch No", "fieldtype": "Check"},
+    {"fieldname": "has_serial_no", "label": "Has Serial No", "fieldtype": "Check"}
+  ]
+}

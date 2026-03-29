@@ -1,0 +1,21 @@
+{
+    "doctype": "Purchase Invoice",
+    "title": "C.H. Robinson Worldwide (AU) Pty. Ltd. - 6216019327",
+    "custom_purchase_invoice_type": "Freight Invoice",
+    "supplier": "C.H. Robinson Worldwide (AU) Pty. Ltd.",
+    "bill_no": "6216019327",
+    "posting_date": "2025-01-20",
+    "due_date": "2025-03-20",
+    "currency": "AUD",
+    "grand_total": 44700.90,
+    "custom_master_trade_record": "OOLU2752707530",
+    "items": [
+      {
+        "item_code": "Freight and Logistics",
+        "description": "Freight and Logistics for Shipment 502116896 / BL# OOLU2752707530",
+        "qty": 1,
+        "rate": 44700.9,
+        "amount": 44700.9
+      }
+    ]
+  }

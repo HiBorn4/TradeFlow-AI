@@ -1,0 +1,35 @@
+# Environment
+.env
+*.env.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Runtime outputs (not committed - generated at runtime)
+logictic_ai_system/app/uploads/
+logictic_ai_system/app/classified_pages/
+logictic_ai_system/app/extracted_data/
+
+# Keep accurate_data (ground truth)
+!logictic_ai_system/app/accurate_data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vertex cache (internal)
+*.vertex-cache

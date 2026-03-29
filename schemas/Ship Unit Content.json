@@ -1,0 +1,16 @@
+{
+  "doctype": "Ship Unit Content",
+  "fields": [
+    {"fieldname": "item", "label": "Item", "fieldtype": "Link", "options": "Item"},
+    {"fieldname": "count_per_ship_unit", "label": "Count per Ship Unit", "fieldtype": "Int"},
+    {"fieldname": "item_package_spec", "label": "Item Package Specification", "fieldtype": "Link", "options": "Transport Handling Unit"},
+    {"fieldname": "quantity", "label": "Quantity", "fieldtype": "Float"},
+    {"fieldname": "uom", "label": "UOM", "fieldtype": "Link", "options": "UOM"},
+    {"fieldname": "commodity", "label": "Commodity", "fieldtype": "Link", "options": "Item Group"},
+    {"fieldname": "is_hazardous_material", "label": "Is Hazardous Material", "fieldtype": "Check"},
+    {"fieldname": "min_temperature", "label": "Min Temperature", "fieldtype": "Float"},
+    {"fieldname": "max_temperature", "label": "Max Temperature", "fieldtype": "Float"},
+    {"fieldname": "optimal_temperature", "label": "Optimal Temperature", "fieldtype": "Float"},
+    {"fieldname": "temperature_uom", "label": "Temperature UOM", "fieldtype": "Link", "options": "UOM"}
+  ]
+}

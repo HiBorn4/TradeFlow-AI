@@ -1,0 +1,20 @@
+{
+  "doctype": "Transport Handling Unit",
+  "fields": [
+    {"fieldname": "transport_handling_unit_type", "label": "Transport Handling Unit Type", "fieldtype": "Select",
+     "options": ["Container", "Pallet", "Bundle", "Carton", "Gaylord", "Trailer", "Other"]},
+    {"fieldname": "thu_name", "label": "Transport Handling Unit Name", "fieldtype": "Data"},
+    
+    {"fieldname": "length", "label": "Length", "fieldtype": "Float"},
+    {"fieldname": "width", "label": "Width", "fieldtype": "Float"},
+    {"fieldname": "height", "label": "Height", "fieldtype": "Float"},
+    {"fieldname": "dimension_uom", "label": "Dimension UOM", "fieldtype": "Link", "options": "UOM"},
+    
+    {"fieldname": "tare_weight", "label": "Tare Weight", "fieldtype": "Float"},
+    {"fieldname": "max_payload", "label": "Max Payload", "fieldtype": "Float"},
+    {"fieldname": "weight_uom", "label": "Weight UOM", "fieldtype": "Link", "options": "UOM"},
+    
+    {"fieldname": "volume_capacity", "label": "Volume Capacity", "fieldtype": "Float"},
+    {"fieldname": "volume_uom", "label": "Volume UOM", "fieldtype": "Link", "options": "UOM"}
+  ]
+}

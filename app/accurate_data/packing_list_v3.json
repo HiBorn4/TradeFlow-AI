@@ -1,0 +1,459 @@
+[{
+        "doctype": "Item",
+        "item_code": "AS/NZS 4671:2019 Grade 500N 20 MM",
+        "item_name": "AS/NZS 4671:2019 Grade 500N 20 MM",
+        "item_group": "Deformed Steel Bar",
+        "stock_uom": "MT",
+        "description": "Deformed Steel Bar in 12 Metres straight Length Spec: AS/NZS 4671:2019 Grade 500N",
+        "custom_width": 20,
+        "custom_width_uom": "Millimeter",
+        "custom_length": 12,
+        "custom_length_uom": "Meter"
+    }, {
+        "doctype": "Item",
+        "item_code": "AS/NZS 4671:2019 Grade 500N 24 MM",
+        "item_name": "AS/NZS 4671:2019 Grade 500N 24 MM",
+        "item_group": "Deformed Steel Bar",
+        "stock_uom": "MT",
+        "description": "Deformed Steel Bar in 12 Metres straight Length Spec: AS/NZS 4671:2019 Grade 500N",
+        "custom_width": 24,
+        "custom_width_uom": "Millimeter",
+        "custom_length": 12,
+        "custom_length_uom": "Meter"
+    }, {
+        "doctype": "Address",
+        "name": "INFRABUILD (NEWCASTLE) PTY LTD-Shipping",
+        "address_title": "INFRABUILD (NEWCASTLE) PTY LTD",
+        "address_type": "Shipping",
+        "address_line1": "Level 35, 50 Bridge Street",
+        "city": "Sydney",
+        "state": "NSW",
+        "pincode": "2000",
+        "country": "Australia"
+    }, {
+        "doctype": "Party Site",
+        "party_role": "Ship To",
+        "party_address": "INFRABUILD (NEWCASTLE) PTY LTD-Shipping"
+    }, {
+        "doctype": "Transport Handling Unit",
+        "thu_name": "40 ft High Cube Container",
+        "transport_handling_unit_type": "Container"
+    }, {
+        "doctype": "Transport Handling Unit",
+        "thu_name": "Bundle",
+        "transport_handling_unit_type": "Bundle"
+    }, {
+        "doctype": "Master Trade Record",
+        "source_contract_no": "1120004985",
+        "lot_no": "LOT3",
+        "shipment_part": "Jan25",
+        "transaction_type": "Export",
+        "vessel_name": "OOCL TEXAS",
+        "voyage_code": "216S",
+        "load_port": "SINGAPORE",
+        "discharge_port": "BRISBANE, AUSTRALIA"
+    }, {
+        "doctype": "Ship Unit",
+        "ship_unit_id": "BEAU6216479",
+        "thu_spec": "40 ft High Cube Container",
+        "weight": 24.852,
+        "weight_uom": "MT",
+        "seal_number": "OOLJDN7221",
+        "ship_unit_contents": [{
+                "item": "AS/NZS 4671:2019 Grade 500N 20 MM",
+                "count_per_ship_unit": 12,
+                "item_package_spec": "Bundle"
+            }
+        ]
+    }, {
+        "doctype": "Ship Unit",
+        "ship_unit_id": "BMOU5127582",
+        "thu_spec": "40 ft High Cube Container",
+        "weight": 24.552,
+        "weight_uom": "MT",
+        "seal_number": "OOLJDN7299",
+        "ship_unit_contents": [{
+                "item": "AS/NZS 4671:2019 Grade 500N 24 MM",
+                "count_per_ship_unit": 12,
+                "item_package_spec": "Bundle"
+            }
+        ]
+    }, {
+        "doctype": "Ship Unit",
+        "ship_unit_id": "BSTU9399239",
+        "thu_spec": "40 ft High Cube Container",
+        "weight": 24.852,
+        "weight_uom": "MT",
+        "seal_number": "OOLJDN7267",
+        "ship_unit_contents": [{
+                "item": "AS/NZS 4671:2019 Grade 500N 20 MM",
+                "count_per_ship_unit": 12,
+                "item_package_spec": "Bundle"
+            }
+        ]
+    }, {
+        "doctype": "Ship Unit",
+        "ship_unit_id": "CBHU8961114",
+        "thu_spec": "40 ft High Cube Container",
+        "weight": 24.852,
+        "weight_uom": "MT",
+        "seal_number": "OOLJDN7220",
+        "ship_unit_contents": [{
+                "item": "AS/NZS 4671:2019 Grade 500N 20 MM",
+                "count_per_ship_unit": 12,
+                "item_package_spec": "Bundle"
+            }
+        ]
+    }, {
+        "doctype": "Ship Unit",
+        "ship_unit_id": "CBHU9021372",
+        "thu_spec": "40 ft High Cube Container",
+        "weight": 24.552,
+        "weight_uom": "MT",
+        "seal_number": "OOLJDN7218",
+        "ship_unit_contents": [{
+                "item": "AS/NZS 4671:2019 Grade 500N 24 MM",
+                "count_per_ship_unit": 12,
+                "item_package_spec": "Bundle"
+            }
+        ]
+    }, {
+        "doctype": "Ship Unit",
+        "ship_unit_id": "CCLU7404367",
+        "thu_spec": "40 ft High Cube Container",
+        "weight": 24.852,
+        "weight_uom": "MT",
+        "seal_number": "OOLJDN7208",
+        "ship_unit_contents": [{
+                "item": "AS/NZS 4671:2019 Grade 500N 20 MM",
+                "count_per_ship_unit": 12,
+                "item_package_spec": "Bundle"
+            }
+        ]
+    }, {
+        "doctype": "Ship Unit",
+        "ship_unit_id": "CCLU7815753",
+        "thu_spec": "40 ft High Cube Container",
+        "weight": 24.552,
+        "weight_uom": "MT",
+        "seal_number": "OOLJDN7385",
+        "ship_unit_contents": [{
+                "item": "AS/NZS 4671:2019 Grade 500N 24 MM",
+                "count_per_ship_unit": 12,
+                "item_package_spec": "Bundle"
+            }
+        ]
+    }, {
+        "doctype": "Ship Unit",
+        "ship_unit_id": "CSLU6166856",
+        "thu_spec": "40 ft High Cube Container",
+        "weight": 24.852,
+        "weight_uom": "MT",
+        "seal_number": "OOLJDN7207",
+        "ship_unit_contents": [{
+                "item": "AS/NZS 4671:2019 Grade 500N 20 MM",
+                "count_per_ship_unit": 12,
+                "item_package_spec": "Bundle"
+            }
+        ]
+    }, {
+        "doctype": "Ship Unit",
+        "ship_unit_id": "CSNU6539052",
+        "thu_spec": "40 ft High Cube Container",
+        "weight": 24.552,
+        "weight_uom": "MT",
+        "seal_number": "OOLJDN7226",
+        "ship_unit_contents": [{
+                "item": "AS/NZS 4671:2019 Grade 500N 24 MM",
+                "count_per_ship_unit": 12,
+                "item_package_spec": "Bundle"
+            }
+        ]
+    }, {
+        "doctype": "Ship Unit",
+        "ship_unit_id": "CSNU7779989",
+        "thu_spec": "40 ft High Cube Container",
+        "weight": 24.552,
+        "weight_uom": "MT",
+        "seal_number": "OOLJDN7271",
+        "ship_unit_contents": [{
+                "item": "AS/NZS 4671:2019 Grade 500N 24 MM",
+                "count_per_ship_unit": 12,
+                "item_package_spec": "Bundle"
+            }
+        ]
+    }, {
+        "doctype": "Ship Unit",
+        "ship_unit_id": "DFSU6276685",
+        "thu_spec": "40 ft High Cube Container",
+        "weight": 24.552,
+        "weight_uom": "MT",
+        "seal_number": "OOLJDN7332",
+        "ship_unit_contents": [{
+                "item": "AS/NZS 4671:2019 Grade 500N 24 MM",
+                "count_per_ship_unit": 12,
+                "item_package_spec": "Bundle"
+            }
+        ]
+    }, {
+        "doctype": "Ship Unit",
+        "ship_unit_id": "FCIU7395031",
+        "thu_spec": "40 ft High Cube Container",
+        "weight": 24.552,
+        "weight_uom": "MT",
+        "seal_number": "OOLJDN7337",
+        "ship_unit_contents": [{
+                "item": "AS/NZS 4671:2019 Grade 500N 24 MM",
+                "count_per_ship_unit": 12,
+                "item_package_spec": "Bundle"
+            }
+        ]
+    }, {
+        "doctype": "Ship Unit",
+        "ship_unit_id": "FFAU3148972",
+        "thu_spec": "40 ft High Cube Container",
+        "weight": 24.852,
+        "weight_uom": "MT",
+        "seal_number": "OOLJDN7214",
+        "ship_unit_contents": [{
+                "item": "AS/NZS 4671:2019 Grade 500N 20 MM",
+                "count_per_ship_unit": 12,
+                "item_package_spec": "Bundle"
+            }
+        ]
+    }, {
+        "doctype": "Ship Unit",
+        "ship_unit_id": "MAGU5589177",
+        "thu_spec": "40 ft High Cube Container",
+        "weight": 24.852,
+        "weight_uom": "MT",
+        "seal_number": "OOLJDN7246",
+        "ship_unit_contents": [{
+                "item": "AS/NZS 4671:2019 Grade 500N 20 MM",
+                "count_per_ship_unit": 12,
+                "item_package_spec": "Bundle"
+            }
+        ]
+    }, {
+        "doctype": "Ship Unit",
+        "ship_unit_id": "OOCU6874088",
+        "thu_spec": "40 ft High Cube Container",
+        "weight": 24.852,
+        "weight_uom": "MT",
+        "seal_number": "OOLJDN7281",
+        "ship_unit_contents": [{
+                "item": "AS/NZS 4671:2019 Grade 500N 20 MM",
+                "count_per_ship_unit": 12,
+                "item_package_spec": "Bundle"
+            }
+        ]
+    }, {
+        "doctype": "Ship Unit",
+        "ship_unit_id": "OOCU6926638",
+        "thu_spec": "40 ft High Cube Container",
+        "weight": 24.852,
+        "weight_uom": "MT",
+        "seal_number": "OOLJDN7302",
+        "ship_unit_contents": [{
+                "item": "AS/NZS 4671:2019 Grade 500N 20 MM",
+                "count_per_ship_unit": 12,
+                "item_package_spec": "Bundle"
+            }
+        ]
+    }, {
+        "doctype": "Ship Unit",
+        "ship_unit_id": "OOCU7038673",
+        "thu_spec": "40 ft High Cube Container",
+        "weight": 24.852,
+        "weight_uom": "MT",
+        "seal_number": "OOLJDN7092",
+        "ship_unit_contents": [{
+                "item": "AS/NZS 4671:2019 Grade 500N 20 MM",
+                "count_per_ship_unit": 12,
+                "item_package_spec": "Bundle"
+            }
+        ]
+    }, {
+        "doctype": "Ship Unit",
+        "ship_unit_id": "OOCU7240555",
+        "thu_spec": "40 ft High Cube Container",
+        "weight": 24.852,
+        "weight_uom": "MT",
+        "seal_number": "OOLJDN7287",
+        "ship_unit_contents": [{
+                "item": "AS/NZS 4671:2019 Grade 500N 20 MM",
+                "count_per_ship_unit": 12,
+                "item_package_spec": "Bundle"
+            }
+        ]
+    }, {
+        "doctype": "Ship Unit",
+        "ship_unit_id": "OOCU7304644",
+        "thu_spec": "40 ft High Cube Container",
+        "weight": 24.852,
+        "weight_uom": "MT",
+        "seal_number": "OOLJDN7224",
+        "ship_unit_contents": [{
+                "item": "AS/NZS 4671:2019 Grade 500N 20 MM",
+                "count_per_ship_unit": 12,
+                "item_package_spec": "Bundle"
+            }
+        ]
+    }, {
+        "doctype": "Ship Unit",
+        "ship_unit_id": "OOCU7592303",
+        "thu_spec": "40 ft High Cube Container",
+        "weight": 24.852,
+        "weight_uom": "MT",
+        "seal_number": "OOLJDN7284",
+        "ship_unit_contents": [{
+                "item": "AS/NZS 4671:2019 Grade 500N 20 MM",
+                "count_per_ship_unit": 12,
+                "item_package_spec": "Bundle"
+            }
+        ]
+    }, {
+        "doctype": "Ship Unit",
+        "ship_unit_id": "OOCU7648059",
+        "thu_spec": "40 ft High Cube Container",
+        "weight": 24.852,
+        "weight_uom": "MT",
+        "seal_number": "OOLJDN7230",
+        "ship_unit_contents": [{
+                "item": "AS/NZS 4671:2019 Grade 500N 20 MM",
+                "count_per_ship_unit": 12,
+                "item_package_spec": "Bundle"
+            }
+        ]
+    }, {
+        "doctype": "Ship Unit",
+        "ship_unit_id": "OOCU8162740",
+        "thu_spec": "40 ft High Cube Container",
+        "weight": 24.852,
+        "weight_uom": "MT",
+        "seal_number": "OOLJDN7344",
+        "ship_unit_contents": [{
+                "item": "AS/NZS 4671:2019 Grade 500N 20 MM",
+                "count_per_ship_unit": 12,
+                "item_package_spec": "Bundle"
+            }
+        ]
+    }, {
+        "doctype": "Ship Unit",
+        "ship_unit_id": "OOCU8391411",
+        "thu_spec": "40 ft High Cube Container",
+        "weight": 24.552,
+        "weight_uom": "MT",
+        "seal_number": "OOLJDN7315",
+        "ship_unit_contents": [{
+                "item": "AS/NZS 4671:2019 Grade 500N 24 MM",
+                "count_per_ship_unit": 12,
+                "item_package_spec": "Bundle"
+            }
+        ]
+    }, {
+        "doctype": "Ship Unit",
+        "ship_unit_id": "OOCU8396727",
+        "thu_spec": "40 ft High Cube Container",
+        "weight": 24.552,
+        "weight_uom": "MT",
+        "seal_number": "OOLJDN7335",
+        "ship_unit_contents": [{
+                "item": "AS/NZS 4671:2019 Grade 500N 24 MM",
+                "count_per_ship_unit": 12,
+                "item_package_spec": "Bundle"
+            }
+        ]
+    }, {
+        "doctype": "Ship Unit",
+        "ship_unit_id": "OOCU8398967",
+        "thu_spec": "40 ft High Cube Container",
+        "weight": 24.552,
+        "weight_uom": "MT",
+        "seal_number": "OOLJDN7225",
+        "ship_unit_contents": [{
+                "item": "AS/NZS 4671:2019 Grade 500N 24 MM",
+                "count_per_ship_unit": 12,
+                "item_package_spec": "Bundle"
+            }
+        ]
+    }, {
+        "doctype": "Ship Unit",
+        "ship_unit_id": "OOCU8707454",
+        "thu_spec": "40 ft High Cube Container",
+        "weight": 24.852,
+        "weight_uom": "MT",
+        "seal_number": "OOLJDN7243",
+        "ship_unit_contents": [{
+                "item": "AS/NZS 4671:2019 Grade 500N 20 MM",
+                "count_per_ship_unit": 12,
+                "item_package_spec": "Bundle"
+            }
+        ]
+    }, {
+        "doctype": "Ship Unit",
+        "ship_unit_id": "OOCU8798860",
+        "thu_spec": "40 ft High Cube Container",
+        "weight": 24.852,
+        "weight_uom": "MT",
+        "seal_number": "OOLJDN7245",
+        "ship_unit_contents": [{
+                "item": "AS/NZS 4671:2019 Grade 500N 20 MM",
+                "count_per_ship_unit": 12,
+                "item_package_spec": "Bundle"
+            }
+        ]
+    }, {
+        "doctype": "Ship Unit",
+        "ship_unit_id": "OOCU9002577",
+        "thu_spec": "40 ft High Cube Container",
+        "weight": 24.852,
+        "weight_uom": "MT",
+        "seal_number": "OOLJDN7290",
+        "ship_unit_contents": [{
+                "item": "AS/NZS 4671:2019 Grade 500N 20 MM",
+                "count_per_ship_unit": 12,
+                "item_package_spec": "Bundle"
+            }
+        ]
+    }, {
+        "doctype": "Ship Unit",
+        "ship_unit_id": "OOCU9085400",
+        "thu_spec": "40 ft High Cube Container",
+        "weight": 24.552,
+        "weight_uom": "MT",
+        "seal_number": "OOLJDN7227",
+        "ship_unit_contents": [{
+                "item": "AS/NZS 4671:2019 Grade 500N 24 MM",
+                "count_per_ship_unit": 12,
+                "item_package_spec": "Bundle"
+            }
+        ]
+    }, {
+        "doctype": "Ship Unit",
+        "ship_unit_id": "OOLU6777361",
+        "thu_spec": "40 ft High Cube Container",
+        "weight": 24.852,
+        "weight_uom": "MT",
+        "seal_number": "OOLJDN7384",
+        "ship_unit_contents": [{
+                "item": "AS/NZS 4671:2019 Grade 500N 20 MM",
+                "count_per_ship_unit": 12,
+                "item_package_spec": "Bundle"
+            }
+        ]
+    }, {
+        "doctype": "Ship Unit",
+        "ship_unit_id": "OOLU6947540",
+        "thu_spec": "40 ft High Cube Container",
+        "weight": 24.552,
+        "weight_uom": "MT",
+        "seal_number": "OOLJDN7309",
+        "ship_unit_contents": [{
+                "item": "AS/NZS 4671:2019 Grade 500N 24 MM",
+                "count_per_ship_unit": 12,
+                "item_package_spec": "Bundle"
+            }
+        ]
+    }
+]

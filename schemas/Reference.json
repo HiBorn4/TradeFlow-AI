@@ -1,0 +1,16 @@
+{
+  "doctype": "Reference",
+  "istable": 1,
+  "fields": [
+    {
+      "fieldname": "name1",
+      "label": "Name",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "value",
+      "label": "Value",
+      "fieldtype": "Data"
+    }
+  ]
+}

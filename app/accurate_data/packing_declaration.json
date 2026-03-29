@@ -1,0 +1,244 @@
+[
+  {
+    "doctype": "Master Trade Record",
+    "name": "OOLU2752707530",
+    "vessel_name": "OOCL TEXAS",
+    "voyage_code": "216S",
+    "master_bill_of_lading": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "BEAU6216479",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "BMOU5127582",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "BSIU9399239",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "CBHU8961114",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "CBHU9021372",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "CCLU7404367",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "CCLU7815753",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "CSLU6166856",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "CSNU6539052",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "CSNU7779989",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "DFSU6276685",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "FCIU7395031",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "FFAU3148972",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "MAGU5589177",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "OOCU6874088",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "OOCU6926638",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "OOCU7038673",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "OOCU7240555",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "OOCU7304644",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "OOCU7592303",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "OOCU7648059",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "OOCU8162740",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "OOCU8391411",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "OOCU8396727",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "OOCU8398967",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "OOCU8707454",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "OOCU8798860",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "OOCU9002577",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "OOCU9085400",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "OOLU6777361",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "OOLU6947540",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "OOLU9258565",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "OOLU9168501",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "TGBU4791604",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "TGBU5030256",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "TGBU5729578",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "TGBU8797909",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "TGBU6884454",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "TLLU6885318",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "TRHU4313532",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "UETU5501075",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Ship Unit",
+    "ship_unit_id": "XYLU8126619",
+    "master_trade_record": "OOLU2752707530"
+  },
+  {
+    "doctype": "Trade Declaration",
+    "trade_declaration_no": "PACKING-DECLARATION-OOLU2752707530",
+    "declaration_type": "Packing Declaration",
+    "declaration_date": "2025-01-07",
+    "master_trade_record": "OOLU2752707530",
+    "references": [
+      {
+        "key": "Unacceptable Packaging Material Used",
+        "value": "No"
+      },
+      {
+        "key": "Timber/Bamboo Packaging Used",
+        "value": "Yes - Timber"
+      },
+      {
+        "key": "Timber/Bamboo Treatment",
+        "value": "Treated and marked in compliance with ISPM 15"
+      },
+      {
+        "key": "Container Cleanliness Statement",
+        "value": "The container(s) covered by this document has/have been cleaned and is/are free from material of animal and/or plant origin and soil."
+      }
+    ]
+  }
+]

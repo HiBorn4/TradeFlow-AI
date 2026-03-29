@@ -1,0 +1,20 @@
+{
+  "doctype": "Ship Unit",
+  "fields": [
+    {"fieldname": "ship_unit_id", "label": "Ship Unit ID", "fieldtype": "Data"},
+    {"fieldname": "thu_spec", "label": "THU Specification", "fieldtype": "Link", "options": "Transport Handling Unit"},
+    {"fieldname": "seal_number", "label": "Seal Number", "fieldtype": "Data"},
+    {"fieldname": "equipment", "label": "Equipment", "fieldtype": "Link", "options": "Equipment"},
+    
+    {"fieldname": "weight", "label": "Weight", "fieldtype": "Float"},
+    {"fieldname": "weight_uom", "label": "Weight UOM", "fieldtype": "Link", "options": "UOM"},
+    {"fieldname": "volume", "label": "Volume", "fieldtype": "Float"},
+    {"fieldname": "volume_uom", "label": "Volume UOM", "fieldtype": "Link", "options": "UOM"},
+    
+    {"fieldname": "is_hazardous", "label": "Is Hazardous", "fieldtype": "Check"},
+    {"fieldname": "is_refrigerated", "label": "Is Refrigerated", "fieldtype": "Check"},
+    
+    {"fieldname": "master_trade_record", "label": "Master Trade Record", "fieldtype": "Link", "options": "Master Trade Record"},
+    {"fieldname": "ship_unit_contents", "label": "Ship Unit Contents", "fieldtype": "Table", "options": "Ship Unit Content"}
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "doctype": "Quantity",
+  "istable": 1,
+  "fields": [
+    {
+      "fieldname": "qualifier",
+      "label": "Qualifier",
+      "fieldtype": "Select",
+      "options": [
+        "Total Gross Weight",
+        "Total Net Weight",
+        "Tare Weight",
+        "Final Quantity",
+        "Reporting Quantity"
+      ]
+    },
+    {
+      "fieldname": "value",
+      "label": "Value",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "uom",
+      "label": "UOM",
+      "fieldtype": "Link",
+      "options": "UOM"
+    }
+  ]
+}

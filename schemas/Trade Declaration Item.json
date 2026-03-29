@@ -1,0 +1,160 @@
+{
+  "doctype": "Trade Declaration Item",
+  "istable": 1,
+  "fields": [
+    {
+      "fieldname": "trade_declaration_line_no",
+      "label": "Trade Declaration Line No",
+      "fieldtype": "Int",
+      "unique": 1
+    },
+    {
+      "fieldname": "item",
+      "label": "Item",
+      "fieldtype": "Link",
+      "options": "Item"
+    },
+    {
+      "fieldname": "valuation_basis",
+      "label": "Valuation Basis",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "country_of_origin",
+      "label": "Country of Origin",
+      "fieldtype": "Link",
+      "options": "Country"
+    },
+    {
+      "fieldname": "free_trade_agreement",
+      "label": "Free Trade Agreement (FTA)",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "preference_criterion",
+      "label": "Preference Criterion",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "manufacturing_country",
+      "label": "Manufacturing Country",
+      "fieldtype": "Link",
+      "options": "Country"
+    },
+    {
+      "fieldname": "currency",
+      "label": "Currency",
+      "fieldtype": "Currency"
+    },
+    {
+      "fieldname": "invoice_value",
+      "label": "Invoice Value",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "custom_base_value",
+      "label": "Custom Base Value",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "transport_and_insurance_charges",
+      "label": "Transport and Insurance Charges (T&I)",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "other_non_standard_charges",
+      "label": "Other Non Standard Charges",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "total_taxable_value",
+      "label": "Total Taxable Value",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "custom_duty",
+      "label": "Custom Duty",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "duty_calculation_method",
+      "label": "Duty Calculation Method",
+      "fieldtype": "Select",
+      "options": ["Free", "Ad Valorem", "Specific", "Compound"]
+    },
+    {
+      "fieldname": "duty_rate_percentage",
+      "label": "Duty Rate Percentage",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "duty_amount_per_unit",
+      "label": "Duty Amount Per Unit",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "duty_uom",
+      "label": "Duty UOM",
+      "fieldtype": "Link",
+      "options": "UOM"
+    },
+    {
+      "fieldname": "gst_rate_percentage",
+      "label": "GST Rate Percentage",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "gst",
+      "label": "GST",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "quantity",
+      "label": "Quantity",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "quantity_uom",
+      "label": "Quantity UOM",
+      "fieldtype": "Link",
+      "options": "UOM"
+    },
+    {
+      "fieldname": "gross_weight",
+      "label": "Gross Weight",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "gross_weight_uom",
+      "label": "Gross Weight UOM",
+      "fieldtype": "Link",
+      "options": "UOM"
+    },
+    {
+      "fieldname": "net_weight",
+      "label": "Net Weight",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "net_weight_uom",
+      "label": "Net Weight UOM",
+      "fieldtype": "Link",
+      "options": "UOM"
+    },
+    {
+      "fieldname": "tariff_number",
+      "label": "Tariff Number",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "tariff_description",
+      "label": "Tariff Description",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "tariff_code",
+      "label": "Tariff Code",
+      "fieldtype": "Data"
+    }
+  ]
+}

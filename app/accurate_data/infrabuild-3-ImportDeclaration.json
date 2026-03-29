@@ -1,0 +1,308 @@
+{
+  "trade_declaration": {
+    "doctype": "Trade Declaration",
+    "trade_declaration_no": "AFAMAMRTW 1",
+    "declaration_type": "Import",
+    "status": "Prepared",
+    "prepared_date": "2025-01-16",
+    "broker_jobsub_no": "10730741/1",
+    "declaration_date": "2025-01-10",
+    "master_trade_record": "10730741-1",
+    "shipment_identifier": "502116896",
+    "valuation_basis": "TV",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "BRISBANE",
+    "references": [
+      {
+        "name1": "Job & Sub No",
+        "value": "10730741/1"
+      },
+      {
+        "name1": "Code",
+        "value": "C8800352"
+      },
+      {
+        "name1": "Acct No",
+        "value": "322979629"
+      },
+      {
+        "name1": "BSB No",
+        "value": "014002"
+      },
+      {
+        "name1": "Acct Type",
+        "value": "B"
+      }
+    ],
+    "owner_parties": [
+      {
+        "party_role": "Owner",
+        "party_address": "INFRABUILD (NEWCASTLE) PTY LTD",
+        "additional_identifiers": [
+          {
+            "name1": "ABN/CCID",
+            "value": "50623285718002"
+          }
+        ]
+      }
+    ],
+    "supplier": [
+      {
+        "party_role": "Supplier",
+        "party_address": "NATSTEEL HOLDINGS PTE LTD",
+        "additional_identifiers": [
+          {
+            "name1": "ICS CCID",
+            "value": "CCH7399399H"
+          },
+          {
+            "name1": "Inv No",
+            "value": "1150055305"
+          }
+        ]
+      }
+    ],
+    "declarantbroker": [
+      {
+        "party_role": "Customs Broker",
+        "party_address": "C.H. Robinson"
+      }
+    ],
+    "currency": [
+      {
+        "qualifier": "Invoice Total (ITOT)",
+        "amount": 1156055.29,
+        "currency": "SGD",
+        "conversion_factor": 1.17855013,
+        "functional_amount": 1362469.4,
+        "functional_currency": "AUD"
+      },
+      {
+        "qualifier": "Freight On Board (FOB)",
+        "functional_amount": 1169958.82,
+        "functional_currency": "AUD"
+      },
+      {
+        "qualifier": "Cost, Insurance and Freight (CIF)",
+        "amount": 1156055.29,
+        "currency": "SGD",
+        "conversion_factor": 1.17855013,
+        "functional_amount": 1362469.4,
+        "functional_currency": "AUD"
+      },
+      {
+        "qualifier": "Transport and Insurance (T&I)",
+        "amount": 192510.58,
+        "functional_amount": 192510.58
+      },
+      {
+        "qualifier": "Other Freight Charges (OFT)",
+        "amount": 117600,
+        "currency": "USD",
+        "conversion_factor": 1.61202644,
+        "functional_amount": 189585.68,
+        "functional_currency": "AUD"
+      },
+      {
+        "qualifier": "Other Non-Standard Charges (ONS)",
+        "amount": 2924.9,
+        "currency": "AUD",
+        "conversion_factor": 1,
+        "functional_amount": 2924.9,
+        "functional_currency": "AUD"
+      },
+      {
+        "qualifier": "Total Customs Value",
+        "functional_amount": 1169958.82,
+        "functional_currency": "AUD"
+      },
+      {
+        "qualifier": "Total Duty",
+        "amount": 0
+      },
+      {
+        "qualifier": "Total GST",
+        "amount": 0
+      },
+      {
+        "qualifier": "Other Charges",
+        "amount": 218
+      },
+      {
+        "qualifier": "Total Amount Payable",
+        "amount": 218
+      },
+      {
+        "qualifier": "GST Deferred",
+        "functional_amount": 136246.93,
+        "functional_currency": "AUD"
+      }
+    ],
+    "declaration_items": [
+      {
+        "trade_declaration_line_no": 1,
+        "item": "OTH RODS, HOT ROLLED, OF IRON (NON ALLOY) W/RIBS,GROOVES OTH",
+        "tariff_code": "72142000",
+        "country_of_origin": "SG",
+        "free_trade_agreement": "AANZ",
+        "preference_criterion": "PSR",
+        "quantity": 621.3,
+        "quantity_uom": "T",
+        "invoice_value": 691506.9,
+        "custom_base_value": 699823.45,
+        "transport_and_insurance_charges": 115152.27,
+        "total_taxable_value": 814975.72,
+        "duty_calculation_method": "FREE",
+        "duty_rate_percentage": 0,
+        "gst": 81497.57
+      },
+      {
+        "trade_declaration_line_no": 2,
+        "item": "OTH RODS, HOT ROLLED, OF IRON (NON ALLOY) W/RIBS,GROOVES OTH",
+        "tariff_code": "72142000",
+        "country_of_origin": "SG",
+        "free_trade_agreement": "AANZ",
+        "preference_criterion": "PSR",
+        "quantity": 417.384,
+        "quantity_uom": "T",
+        "invoice_value": 464548.39,
+        "custom_base_value": 470135.37,
+        "transport_and_insurance_charges": 77358.31,
+        "total_taxable_value": 547495.65,
+        "duty_calculation_method": "FREE",
+        "duty_rate_percentage": 0,
+        "gst": 54749.36
+      }
+    ]
+  },
+  "master_trade_record": {
+    "doctype": "Master Trade Record",
+    "name": "10730741-1",
+    "source_contract_no": "10730741",
+    "lot_no": "1",
+    "transaction_type": "Import",
+    "status": "Arrived",
+    "transport_mode": "Marine",
+    "vessel_name": "OOCL TEXAS",
+    "voyage_code": "216S",
+    "load_port": "SINGAPORE",
+    "discharge_port": "BRISBANE",
+    "arrival_date": "2025-01-20",
+    "master_bill_of_lading": "OOLU2752707530",
+    "transaction_parties": [
+      {
+        "party_role": "Destination",
+        "party_address": "BRISBANE"
+      },
+      {
+        "party_role": "Port Loading",
+        "party_address": "SINGAPORE"
+      },
+      {
+        "party_role": "First Port",
+        "party_address": "BRISBANE"
+      },
+      {
+        "party_role": "Discharge Port",
+        "party_address": "BRISBANE"
+      }
+    ],
+    "ship_units": [
+      {
+        "doctype": "Ship Unit",
+        "ship_unit_id": "TGBU8884454/F",
+        "equipment": "TGBU8884454/F",
+        "weight": 1038684,
+        "weight_uom": "KG",
+        "ship_unit_contents": [
+          {
+            "quantity": 12,
+            "uom": "Pieces"
+          }
+        ]
+      },
+      {
+        "doctype": "Ship Unit",
+        "ship_unit_id": "CSNU6539052/F",
+        "equipment": "CSNU6539052/F",
+        "ship_unit_contents": [
+          {
+            "quantity": 12,
+            "uom": "Pieces"
+          }
+        ]
+      }
+    ]
+  },
+  "equipment": [
+    {
+      "doctype": "Equipment",
+      "equipment_number": "TGBU8884454/F",
+      "equipment_type": "Container"
+    },
+    {
+      "doctype": "Equipment",
+      "equipment_number": "CSNU6539052/F",
+      "equipment_type": "Container"
+    }
+  ],
+  "addresses": [
+    {
+      "doctype": "Address",
+      "address_title": "INFRABUILD (NEWCASTLE) PTY LTD",
+      "address_type": "Office",
+      "city": "NEWCASTLE"
+    },
+    {
+      "doctype": "Address",
+      "address_title": "NATSTEEL HOLDINGS PTE LTD",
+      "address_type": "Office",
+      "city": "SINGAPORE"
+    },
+    {
+      "doctype": "Address",
+      "address_title": "C.H. Robinson",
+      "address_type": "Office"
+    },
+    {
+      "doctype": "Address",
+      "address_title": "BRISBANE",
+      "address_type": "Port"
+    },
+    {
+      "doctype": "Address",
+      "address_title": "SINGAPORE",
+      "address_type": "Port"
+    }
+  ],
+  "unmapped_attributes": [
+    {
+      "attribute": "Page",
+      "value": "1"
+    },
+    {
+      "attribute": "Owners Ref",
+      "value": "TBA"
+    },
+    {
+      "attribute": "FACTOR",
+      "value": "1.01202670"
+    },
+    {
+      "attribute": "Container Units",
+      "value": "1 (for each container)"
+    },
+    {
+      "attribute": "Printed Date",
+      "value": "16-Jan-25 / 10:07:51"
+    },
+    {
+      "attribute": "User",
+      "value": "*FATIMA"
+    },
+    {
+      "attribute": "Page Number",
+      "value": "15 of 18"
+    }
+  ]
+}

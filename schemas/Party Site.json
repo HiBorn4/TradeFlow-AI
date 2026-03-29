@@ -1,0 +1,10 @@
+{
+  "doctype": "Party Site",
+  "fields": [
+    {"fieldname": "party_role", "label": "Party Role", "fieldtype": "Select",
+     "options": ["Ship From", "Ship To", "Bill To", "Carrier", "Shipper", "Supplier", "Freight Forwarder", "Customs Broker", "Consignee", "Intermediary", "Loading Port", "Discharge Port"]},
+    {"fieldname": "party_address", "label": "Party Address", "fieldtype": "Link", "options": "Address"},
+    {"fieldname": "party_contact", "label": "Party Contact", "fieldtype": "Link", "options": "Contact"},
+    {"fieldname": "additional_identifiers", "label": "Additional Identifiers", "fieldtype": "Table", "options": "Reference"}
+  ]
+}

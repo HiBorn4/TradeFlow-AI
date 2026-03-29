@@ -1,0 +1,394 @@
+{
+  "doctype": "Master Trade Record",
+  "fields": [
+    {
+      "fieldname": "source_contract_no",
+      "label": "Source Contract No",
+      "fieldtype": "Data",
+      "reqd": 1
+    },
+    {
+      "fieldname": "lot_no",
+      "label": "Lot No",
+      "fieldtype": "Data",
+      "reqd": 1
+    },
+    {
+      "fieldname": "shipment_part",
+      "label": "Shipment Part (for split lots)",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "shipment_id",
+      "label": "Broker/Forwarder Shipment ID",
+      "fieldtype": "Data",
+      "description": "Unique Identifier for the shipment."
+    },
+    {
+      "fieldname": "transaction_type",
+      "label": "Transaction Type",
+      "fieldtype": "Select",
+      "options": ["Import", "Export"]
+    },
+    {
+      "fieldname": "transaction_date",
+      "label": "Transaction Date",
+      "fieldtype": "Date"
+    },
+    {
+      "fieldname": "status",
+      "label": "Status",
+      "fieldtype": "Select",
+      "options": ["Planning", "Booked", "In Transit", "Arrived", "Customs", "Cleared", "Completed", "Cancelled"]
+    },
+    {
+      "fieldname": "incoterm",
+      "label": "Incoterm",
+      "fieldtype": "Link",
+      "options": "Incoterm"
+    },
+    {
+      "fieldname": "incoterm_location",
+      "label": "Incoterm Location",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "trade_documents",
+      "label": "Trade Documents",
+      "fieldtype": "Table",
+      "options": "Trade Document"
+    },
+    {
+      "fieldname": "transport_mode",
+      "label": "Select Mode Type",
+      "fieldtype": "Select",
+      "options": ["Marine", "Motor", "Air", "Rail"]
+    },
+    {
+      "fieldname": "vessel_name",
+      "label": "Vessel Name",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "vessel_id",
+      "label": "Vessel Code",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "voyage_code",
+      "label": "Voyage Code",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "load_port",
+      "label": "Load Port",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "discharge_port",
+      "label": "Discharge Port",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "weight",
+      "label": "Weight",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "weight_uom",
+      "label": "Weight UOM",
+      "fieldtype": "Link",
+      "options": "UOM"
+    },
+    {
+      "fieldname": "container_count",
+      "label": "Container Count",
+      "fieldtype": "Int"
+    },
+    {
+      "fieldname": "contract_number",
+      "label": "Source Contract Number",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "master_bill_of_lading",
+      "label": "Master Bill of Lading",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "house_bill_of_lading",
+      "label": "House Bill of Lading",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "booking_number",
+      "label": "Booking Number",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "volume",
+      "label": "Volume",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "volume_uom",
+      "label": "Volume UOM",
+      "fieldtype": "Link",
+      "options": "UOM"
+    },
+    {
+      "fieldname": "service_code",
+      "label": "Service Code",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "is_refrigerated",
+      "label": "Is Refrigerated",
+      "fieldtype": "Check"
+    },
+    {
+      "fieldname": "is_hazardous",
+      "label": "Is Hazardous",
+      "fieldtype": "Check"
+    },
+    {
+      "fieldname": "sail_date",
+      "label": "Sail Date",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "cutoff_date",
+      "label": "Cutoff Date",
+      "fieldtype": "Date"
+    },
+    {
+      "fieldname": "arrival_date",
+      "label": "Arrival Date",
+      "fieldtype": "Date"
+    },
+    {
+      "fieldname": "sale_date",
+      "label": "Sale Date",
+      "fieldtype": "Date"
+    },
+    {
+      "fieldname": "trip_number",
+      "label": "Trip Number",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "remarks",
+      "label": "Remarks",
+      "fieldtype": "Small Text"
+    },
+    {
+      "fieldname": "pro_number",
+      "label": "Pro Number",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "motor_stop_off",
+      "label": "Motor Stop Off",
+      "fieldtype": "Small Text"
+    },
+    {
+      "fieldname": "delivery_date",
+      "label": "Delivery Date",
+      "fieldtype": "Date"
+    },
+    {
+      "fieldname": "motor_volume",
+      "label": "Volume",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "motor_contract_number",
+      "label": "Contract Number",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "destination_city",
+      "label": "Destination City",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "vehicle_type",
+      "label": "Vehicle Type",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "reference_number",
+      "label": "Reference Number",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "driver_name",
+      "label": "Driver Name",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "pickup_date",
+      "label": "Pickup Date",
+      "fieldtype": "Date"
+    },
+    {
+      "fieldname": "origin_city",
+      "label": "Origin City",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "motor_weight_uom",
+      "label": "Motor Weight UOM",
+      "fieldtype": "Link",
+      "options": "UOM"
+    },
+    {
+      "fieldname": "truckload_service_type",
+      "label": "Truckload Service Type",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "tracking_number",
+      "label": "Tracking Number",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "motor_weight",
+      "label": "Weight",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "truck_count",
+      "label": "Truck Count",
+      "fieldtype": "Int"
+    },
+    {
+      "fieldname": "motor_trip_number",
+      "label": "Trip Number",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "bill_of_lading",
+      "label": "Bill of Lading",
+      "fieldtype": "Date"
+    },
+    {
+      "fieldname": "flight_number",
+      "label": "Flight Number",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "origin_airport",
+      "label": "Origin Airport",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "air_departure_date",
+      "label": "Departure Date",
+      "fieldtype": "Date"
+    },
+    {
+      "fieldname": "air_arrival_date",
+      "label": "Arrival Date",
+      "fieldtype": "Date"
+    },
+    {
+      "fieldname": "air_contract_number",
+      "label": "Contract Number",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "master_air_waybill",
+      "label": "Master Air Waybill",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "airline",
+      "label": "Airline",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "destination_airport",
+      "label": "Destination Airport",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "air_tracking_number",
+      "label": "Tracking Number",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "equipment_initial",
+      "label": "Equipment Initial",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "rail_volume_uom",
+      "label": "Volume UOM",
+      "fieldtype": "Link",
+      "options": "UOM"
+    },
+    {
+      "fieldname": "remark",
+      "label": "Remark",
+      "fieldtype": "Small Text"
+    },
+    {
+      "fieldname": "rail_trip_id",
+      "label": "Trip ID",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "rail_weight_uom",
+      "label": "Weight UOM",
+      "fieldtype": "Link",
+      "options": "UOM"
+    },
+    {
+      "fieldname": "load_type",
+      "label": "Load Type",
+      "fieldtype": "Select",
+      "options": ["FCL", "LCL", "FTL", "LTL", "Parcel"]
+    },
+    {
+      "fieldname": "service_level",
+      "label": "Service Level",
+      "fieldtype": "Select",
+      "options": ["Express", "Standard", "Economy", "2-Day", "Overnight"]
+    },
+    {
+      "fieldname": "rail_service_code",
+      "label": "Service Code",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "intermodal_service_code",
+      "label": "Intermodal Service Code",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "ship_units",
+      "label": "Ship Units",
+      "fieldtype": "Table",
+      "options": "Ship Unit Details"
+    },
+    {
+      "fieldname": "ship_unit_contents",
+      "label": "Ship Unit Contents",
+      "fieldtype": "Table",
+      "options": "Ship Unit Content Details"
+    },
+    {
+      "fieldname": "transaction_parties",
+      "label": "Transaction Parties",
+      "fieldtype": "Table",
+      "options": "Party Site"
+    },
+    {
+      "fieldname": "trade_transactions",
+      "label": "Trade Transactions",
+      "fieldtype": "Table",
+      "options": "Trade Transaction"
+    }
+  ]
+}

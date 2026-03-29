@@ -1,0 +1,145 @@
+{
+  "doctype": "Trade Declaration",
+  "fields": [
+    {
+      "fieldname": "trade_declaration_no",
+      "label": "Trade Declaration No",
+      "fieldtype": "Data",
+      "reqd": 1,
+      "unique": 1
+    },
+    {
+      "fieldname": "declaration_form_no",
+      "label": "Declaration Form No",
+      "fieldtype": "Data",
+      "description": "Example: N10"
+    },
+    {
+      "fieldname": "shipment_identifier",
+      "label": "Shipment Identifier",
+      "fieldtype": "Data",
+      "description": "Shipment Identifier is a number which uniquely identifies shipment of goods between an Origin and a destination."
+    },
+    {
+      "fieldname": "declaration_type",
+      "label": "Declaration Type",
+      "fieldtype": "Select",
+      "options": ["Import", "Export", "Packing Declaration", "Certificate of Origin"]
+    },
+    {
+      "fieldname": "declaration_date",
+      "label": "Declaration Date",
+      "fieldtype": "Date"
+    },
+    {
+      "fieldname": "prepared_date",
+      "label": "Prepared Date",
+      "fieldtype": "Date"
+    },
+    {
+      "fieldname": "is_final_submission",
+      "label": "Is Final Submission",
+      "fieldtype": "Check"
+    },
+    {
+      "fieldname": "regime",
+      "label": "Regime",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "jurisdiction",
+      "label": "Jurisdiction",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "master_trade_record",
+      "label": "Master Trade Record",
+      "fieldtype": "Link",
+      "options": "Master Trade Record"
+    },
+    {
+      "fieldname": "broker_job_no",
+      "label": "Broker Job/Sub No",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "status",
+      "label": "Status",
+      "fieldtype": "Select",
+      "options": ["Draft", "Submitted", "Approved", "Rejected", "Cancelled"]
+    },
+    {
+      "fieldname": "primary_invoice_no",
+      "label": "Primary Invoice No",
+      "fieldtype": "Data",
+      "description": "Main commercial invoice associated with this Declaration."
+    },
+    {
+      "fieldname": "quantity",
+      "label": "Quantity",
+      "fieldtype": "Table",
+      "options": "Quantity"
+    },
+    {
+      "fieldname": "references",
+      "label": "References",
+      "fieldtype": "Table",
+      "options": "Key Value Reference"
+    },
+    {
+      "fieldname": "buyers",
+      "label": "Buyers",
+      "fieldtype": "Table",
+      "options": "Party Site"
+    },
+    {
+      "fieldname": "supplier",
+      "label": "Supplier",
+      "fieldtype": "Table",
+      "options": "Party Site"
+    },
+    {
+      "fieldname": "declarant_broker",
+      "label": "Declarant/Broker",
+      "fieldtype": "Table",
+      "options": "Party Site"
+    },
+    {
+      "fieldname": "port_of_loading",
+      "label": "Port of Loading",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "port_of_discharge",
+      "label": "Port of Discharge",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "first_port_of_loading",
+      "label": "First Port of Loading",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "valuation_basis",
+      "label": "Valuation Basis",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "valuation_date",
+      "label": "Valuation Date",
+      "fieldtype": "Date"
+    },
+    {
+      "fieldname": "charges",
+      "label": "Charges",
+      "fieldtype": "Table",
+      "options": "Declaration Charges"
+    },
+    {
+      "fieldname": "declaration_items",
+      "label": "Declaration Items",
+      "fieldtype": "Table",
+      "options": "Trade Declaration Item"
+    }
+  ]
+}

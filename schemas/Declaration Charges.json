@@ -1,0 +1,93 @@
+{
+  "doctype": "Declaration Charges",
+  "istable": 1,
+  "fields": [
+    {
+      "fieldname": "qualifier",
+      "label": "Qualifier",
+      "fieldtype": "Select",
+      "options": [
+        "Total Value",
+        "Invoice Total (ITOT)",
+        "GST Deferred",
+        "Transport and Insurance (T&I)",
+        "Other Freight Charges (OFT)",
+        "Other Non-Standard Charges (ONS)",
+        "Bunker Adjustment Factor (BAF)",
+        "Currency Adjustment Factor (CAF)",
+        "Origin Terminal Handling Charges (OTHC)",
+        "Destination Terminal Handling Charges (DTHC)",
+        "Congestion Surcharge (CON)",
+        "Emergency Risk Surcharge (ERS)",
+        "Heavy Lift Surcharge (HEA)",
+        "Out of Gauge Surcharge (OOG)",
+        "Peak Season Surcharge (PSS)",
+        "Special Equipment Surcharge (SPE)",
+        "Hazardous Cargo Surcharge (HAZ)",
+        "Suez Canal Surcharge (SUE)",
+        "Panama Canal Surcharge (PCC)",
+        "Aden Gulf Surcharge (ADE)",
+        "Administrative Fees",
+        "Inspection Fees",
+        "Storage Fees",
+        "Quarantine Fees",
+        "Handling Fees",
+        "Processing Fees",
+        "Security Fees",
+        "Documentation Fees",
+        "Brokerage Fees",
+        "Demurrage Fees",
+        "Detention Fees",
+        "Entry Fees",
+        "Port Charges",
+        "Deconsolidation Fees",
+        "Service Charges",
+        "Sanitary and Phytosanitary Fees",
+        "Testing Fees",
+        "Environmental Fees",
+        "Customs User Fees",
+        "Value Added Tax (VAT) and Deferred VAT",
+        "Handling Surcharges",
+        "License and Permit Fees",
+        "Miscellaneous Surcharges",
+        "Total Customs Value",
+        "Total Duty",
+        "Total GST",
+        "Freight On Board (FOB)",
+        "Cost, Insurance and Freight (CIF)",
+        "Total Amount Payable"
+      ]
+    },
+    {
+      "fieldname": "secondary_qualifier",
+      "label": "Secondary Qualifier",
+      "fieldtype": "Link",
+      "options": "Secondary Charges"
+    },
+    {
+      "fieldname": "amount",
+      "label": "Amount",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "currency",
+      "label": "Currency",
+      "fieldtype": "Currency"
+    },
+    {
+      "fieldname": "conversion_factor",
+      "label": "Conversion Factor",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "functional_amount",
+      "label": "Functional Amount",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "functional_currency",
+      "label": "Functional Currency",
+      "fieldtype": "Currency"
+    }
+  ]
+}

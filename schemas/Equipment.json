@@ -1,0 +1,76 @@
+{
+  "doctype": "Equipment",
+  "fields": [
+    {
+      "fieldname": "thu_specification",
+      "label": "THU Specification",
+      "fieldtype": "Link",
+      "options": "Transport Handling Unit"
+    },
+    {
+      "fieldname": "equipment_number",
+      "label": "Equipment Number",
+      "fieldtype": "Data",
+      "unique": 1
+    },
+    {
+      "fieldname": "container_chassis_type",
+      "label": "Container/Chassis Type",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "equipment_type",
+      "label": "Equipment Type",
+      "fieldtype": "Select",
+      "options": ["Container", "Trailer", "Rail Car", "Other"]
+    },
+    {
+      "fieldname": "seal_number",
+      "label": "Seal Number",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "shipment",
+      "label": "Shipment",
+      "fieldtype": "Link",
+      "options": "Shipment"
+    },
+    {
+      "fieldname": "ownership",
+      "label": "Ownership",
+      "fieldtype": "Select",
+      "options": ["Carrier", "Customer", "Leased"]
+    },
+    {
+      "fieldname": "equipment_owner",
+      "label": "Equipment Owner",
+      "fieldtype": "Link",
+      "options": "Party Site"
+    },
+    {
+      "fieldname": "size",
+      "label": "Size",
+      "fieldtype": "Int"
+    },
+    {
+      "fieldname": "tare_weight",
+      "label": "Tare Weight",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "max_volume",
+      "label": "Max Volume",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "max_payload",
+      "label": "Max Payload",
+      "fieldtype": "Float"
+    },
+    {
+      "fieldname": "remarks",
+      "label": "Remarks",
+      "fieldtype": "Small Text"
+    }
+  ]
+}

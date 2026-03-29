@@ -1,0 +1,43 @@
+{
+  "core_fields": [
+    "naming_series",
+    "supplier",
+    "supplier_name",
+    "tax_id",
+    "company",
+    "posting_date",
+    "due_date",
+    "bill_no",
+    "bill_date"
+  ],
+  
+  "item_fields": [
+    "items"
+  ],
+  
+  "amounts": [
+    "total_qty",
+    "net_total",
+    "total_taxes_and_charges",
+    "grand_total",
+    "outstanding_amount",
+    "discount_amount"
+  ],
+  
+  "tax_fields": [
+    "taxes"
+  ],
+  
+  "address_fields": [
+    "address_display",
+    "shipping_address_display",
+    "billing_address_display"
+  ],
+  
+  "optional_fields": [
+    "payment_terms_template",
+    "is_return",
+    "return_against",
+    "remarks"
+  ]
+}

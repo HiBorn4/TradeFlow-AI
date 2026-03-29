@@ -1,0 +1,90 @@
+[
+  {
+    "doctype": "Item",
+    "item_code": "AS/NZS 4671:2019 Grade 500N 20mm",
+    "item_name": "Deformed Steel Bar in 12 Metres straight Length 20mm",
+    "item_group": "Raw Material",
+    "country_of_origin": "Singapore",
+    "customs_tariff_number": "721420"
+  },
+  {
+    "doctype": "Item",
+    "item_code": "AS/NZS 4671:2019 Grade 500N 24mm",
+    "item_name": "Deformed Steel Bar in 12 Metres straight Length 24mm",
+    "item_group": "Raw Material",
+    "country_of_origin": "Singapore",
+    "customs_tariff_number": "721420"
+  },
+  {
+    "doctype": "Address",
+    "address_title": "INFRABUILD (NEWCASTLE) PTY LTD",
+    "address_type": "Billing",
+    "address_line1": "Level 35, 50 Bridge Street",
+    "city": "Sydney",
+    "state": "NSW",
+    "pincode": "2000",
+    "country": "Australia"
+  },
+  {
+    "doctype": "Address",
+    "address_title": "NATSTEEL HOLDINGS PTE LTD",
+    "address_type": "Billing",
+    "address_line1": "22 Tanjong Kling Road",
+    "city": "Singapore",
+    "pincode": "628048",
+    "country": "Singapore"
+  },
+  {
+    "doctype": "Party Site",
+    "party_role": "Buyer",
+    "party_address": "INFRABUILD (NEWCASTLE) PTY LTD"
+  },
+  {
+    "doctype": "Party Site",
+    "party_role": "Supplier",
+    "party_address": "NATSTEEL HOLDINGS PTE LTD"
+  },
+  {
+    "doctype": "Transport Handling Unit",
+    "thu_name": "Bundle",
+    "transport_handling_unit_type": "Bundle"
+  },
+  {
+    "doctype": "Master Trade Record",
+    "source_contract_no": "1120004985",
+    "lot_no": "LOT3",
+    "shipment_part": "Jan25",
+    "vessel_name": "OOCL TEXAS",
+    "voyage_code": "V.216S",
+    "incoterm": "CIP",
+    "incoterm_location": "CY, Brisbane Port, Australia"
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "custom_purchase_invoice_type": "Commercial Invoice",
+    "supplier": "NATSTEEL HOLDINGS PTE LTD.",
+    "supplier_name": "NATSTEEL HOLDINGS PTE LTD.",
+    "title": "NATSTEEL HOLDINGS PTE LTD.",
+    "posting_date": "2025-01-07",
+    "bill_no": "1150055305",
+    "custom_master_trade_record": "1120004985-LOT3-Jan25",
+    "items": [
+      {
+        "item_code": "AS/NZS 4671:2019 Grade 500N 20mm",
+        "description": "Deformed Steel Bar in 12 Metres straight Length",
+        "qty": 621.3,
+        "uom": "MT",
+        "rate": 1113.0,
+        "amount": 691506.9
+      },
+      {
+        "item_code": "AS/NZS 4671:2019 Grade 500N 24mm",
+        "description": "Deformed Steel Bar in 12 Metres straight Length",
+        "qty": 417.384,
+        "uom": "MT",
+        "rate": 1113.0,
+        "amount": 464548.39
+      }
+    ]
+  }
+]
